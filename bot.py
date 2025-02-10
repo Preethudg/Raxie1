@@ -104,6 +104,6 @@ async def Deendayal_start():
     
 if __name__ == '__main__':
     try:
-        loop.run_until_complete(Deendayal_start())
+       
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')  
